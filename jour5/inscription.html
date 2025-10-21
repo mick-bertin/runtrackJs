@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Inscription</title>
+  </head>
+
+  <body>
+    <main>
+      <form id="form-signup">
+        <div id="contant">
+          <div class="bloc1">
+            <label for="nom">nom:</label>
+            <input type="text" name="nom" id="nom" required />
+
+            <label for="prenom">prenom:</label>
+            <input type="text" name="prenom" id="prenom" required />
+          </div>
+          <div id="box-erro">
+            <p id="p1"></p>
+            <p id="p"></p>
+          </div>
+
+          <div class="bloc2">
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="bloc2">
+            <label for="adresse">adresse:</label>
+            <input type="text" name="adresse" id="adresse" required />
+          </div>
+          <div class="bloc3">
+            <label for="codepostal">Code postal:</label>
+            <input type="text" name="codepostal" id="codepostal" required />
+            <label for="motdepasse">mot de passe:</label>
+            <input type="password" name="motdepasse" id="motdepasse" required />
+            <div id="er">
+              <p id="mdperr"></p>
+              <p id="mdpminu"></p>
+              <p id="mdpmaj"></p>
+              <p id="mdpnum"></p>
+              <p id="mdptt"></p>
+            </div>
+          </div>
+
+          <button type="submit" id="submit">sinscrire</button>
+        </div>
+      </form>
+    </main>
+    <script src="asyn.js"></script>
+    <!-- <script src="index.js"></script> -->
+  </body>
+</html>
